@@ -1,0 +1,63 @@
+body{
+  width: 100%;
+  height: 100%;
+}
+
+.blueTheme{
+  background-image: linear-gradient(to right, #005, #33D);
+}
+
+.blackTheme {
+  background-image: linear-gradient(to right, #000, #222);
+}
+
+/* Edit Input Styles */
+
+#editLock{
+  position: fixed;
+  left: 10px;
+  padding: 20px;
+}
+
+#lockIcon {
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+  margin-left: 10px;
+  filter: invert(73%) sepia(0%) saturate(5361%) hue-rotate(62deg) brightness(100%) contrast(101%);
+}
+
+#lockIcon:hover{
+  cursor: pointer;
+  filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(280deg) brightness(105%) contrast(101%);
+}
+
+.editDiv {
+  position: absolute;
+  padding: 20px;
+  display: none;
+  top: 0px;
+  right: 0px;
+  cursor: pointer;
+}
+
+.editIcon {
+  filter: invert(73%) sepia(0%) saturate(5361%) hue-rotate(62deg) brightness(100%) contrast(101%);
+  width: 20px;
+  height: 20px;
+}
+
+.editDiv:hover > .editIcon {
+  filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(280deg) brightness(105%) contrast(101%);
+}
+
+.tagEdit {
+  color: black !important
+}
+
+
+/* Standard Styles */
+
+.clickable:hover{
+  color: #555;
+}
