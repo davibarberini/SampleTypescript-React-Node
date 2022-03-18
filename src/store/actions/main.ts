@@ -2,9 +2,7 @@ import { createAction, createAsyncThunk } from '@reduxjs/toolkit';
 const prefix = 'main';
 
 // Use as ref
-export const setTweets = createAction<any>(
-  `${prefix}/setTweets`,
-);
+export const setTweets = createAction<any>(`${prefix}/setTweets`);
 
 // export const getUser = createAsyncThunk(
 //   `${prefix}/getUser`,

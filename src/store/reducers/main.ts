@@ -1,5 +1,5 @@
-import { createReducer } from "@reduxjs/toolkit";
-import { setTweets } from "../actions/main";
+import { createReducer } from '@reduxjs/toolkit';
+import { setTweets } from '../actions/main';
 const initialState = {
   tweets: [],
 };
