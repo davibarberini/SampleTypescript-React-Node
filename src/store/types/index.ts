@@ -1,3 +1,3 @@
-export interface example{
+export interface example {
   username: string
 }

@@ -6,4 +6,4 @@
 //   ])
 // }
 
-export const defaultFunc = () => {}
+export const defaultFunc = () => { }

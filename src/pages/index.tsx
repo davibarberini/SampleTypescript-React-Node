@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React, { useEffect } from 'react'
 // import { icons } from '../config/icons'
 export const MainPage: React.FC = () => {
   return (
